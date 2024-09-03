@@ -4,11 +4,7 @@
   box-sizing: border-box;
 }
 
-:root {
-  --primary: #f4b300;
-  --white: #ffffff;
-  --black: #000000;
-}
+
 
 html {
   scroll-behavior: smooth;
@@ -25,21 +21,6 @@ ul {
   padding: 0;
 }
 
-.section-title {
-  font-size: 70px;
-  margin: 0;
-  color: var(--primary);
-  font-weight: 800;
-
-  @media screen and (max-width: 768px) {
-    font-size: 46px;
-  }
-
-  @media screen and (max-width: 576px) {
-    font-size: 28px;
-  }
-}
-
 .header {
   position: absolute;
   top: 0;
@@ -49,6 +30,15 @@ ul {
   align-items: center;
   padding: 30px 40px;
   z-index: 10;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+.header a:hover {
+  color: var(--primary);
 }
 
 .logo {
@@ -152,40 +142,9 @@ ul {
   background-color: var(--primary);
 }
 
-.header-buttons {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.contact-button {
-  color: var(--primary);
-  background-color: var(--white);
-  border: none;
-  padding: 20px;
-  border-radius: 50px;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 20px;
-  width: 180px;
-  height: 80px;
-}
-
-.menu-icon {
-  width: 80px;
-  height: 80px;
-  font-size: 35px;
-  color: var(--primary);
-  background-color: var(--white);
-  border-radius: 50%;
-  cursor: pointer;
-  display: grid;
-  place-items: center;
-}
-
 .hero {
   height: 100vh;
-  background: url("./images/hero.jpg") no-repeat center center/cover;
+  background: url("../images/hero.jpg") no-repeat center center/cover;
   position: relative;
   margin-bottom: 3rem;
 
@@ -958,11 +917,13 @@ footer .logo {
   line-height: 1.5;
   width: 100%;
 }
+
 .recruitment p {
   font-size: 18px;
   line-height: 1.5;
   width: 100%;
 }
+
 .yellow {
   background-color: var(--primary);
   text-align: start;
@@ -1034,11 +995,11 @@ footer .logo {
   right: 0;
 }
 
-.header-mob_menu .logo {
+.header-mob_menu .logo_container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin-bottom: 55px;
 }
 
 span.close_icon {

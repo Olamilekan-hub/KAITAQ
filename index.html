@@ -6,18 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KAITAQ</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/common.css" />
+    <link href="dist/output.css" rel="stylesheet">
 </head>
 
 <body>
     <header class="header">
         <div class="logo">
-            <img src="./images/logo.png" alt="" class="logo">
+            <img src="./assets/images/logo.png" alt="" class="logo">
         </div>
         <nav class="custom-dropdown-wrapper">
             <div class="dropdown">
-                私たちについて
+                <a href="./aboutUs.html">私たちについて</a>
             </div>
 
             <div class="dropdown">
@@ -46,7 +47,7 @@
                 </ul>
             </div>
             <div class="dropdown">
-                新着情報
+                <a href="./aboutUs.html">新着情報</a>
             </div>
         </nav>
         <div class="header-buttons">
@@ -55,7 +56,8 @@
         </div>
         <div class="header-mob_menu">
             <div class="header_mob_logo">
-                <div class="logo">KAITAO
+                <div class="logo_container">
+                    <img src="./assets/images/logo.png" alt="" class="logo">
                     <span class="close_icon">
                         <?xml version="1.0" ?>
                         <svg height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg">
@@ -128,7 +130,7 @@
 
     <section class="hero">
         <div class="overlay">
-            <h1>解体で開拓する、<span class="highlight">未来。</span></h1>
+            <h1 class=" font-bold">解体で開拓する、<span class="highlight font-bold">未来。</span></h1>
             <a href="#about" class="scroll-text">SCROLL</a>
         </div>
     </section>
@@ -154,7 +156,7 @@
         </div>
         <div class="about-image-wrapper">
             <div class="about-image">
-                <img src="./images/about.jpeg" alt="About Us Image" />
+                <img src="./assets/images/about.jpeg" alt="About Us Image" />
             </div>
         </div>
     </section>
@@ -167,35 +169,35 @@
         </div>
         <div class="business-grid">
             <div class="business-item large">
-                <img src="./images/sp-business/sp-business-01.jpg" alt="Demolition work" />
+                <img src="./assets/images/sp-business/sp-business-01.jpg" alt="Demolition work" />
                 <div class="business-overlay">
                     <h3>解体工事</h3>
                     <p>Demolition work</p>
                 </div>
             </div>
             <div class="business-item small">
-                <img src="./images/sp-business/sp-business-02.jpg" alt="Reform" />
+                <img src="./assets/images/sp-business/sp-business-02.jpg" alt="Reform" />
                 <div class="business-overlay">
                     <h3>リフォーム</h3>
                     <p>Reform</p>
                 </div>
             </div>
             <div class="business-item small">
-                <img src="./images/sp-business/sp-business-03.jpg" alt="Cleaning" />
+                <img src="./assets/images/sp-business/sp-business-03.jpg" alt="Cleaning" />
                 <div class="business-overlay">
                     <h3>清掃業</h3>
                     <p>Cleaning</p>
                 </div>
             </div>
             <div class="business-item small">
-                <img src="./images/sp-business/sp-business-04.jpg" alt="Handyman" />
+                <img src="./assets/images/sp-business/sp-business-04.jpg" alt="Handyman" />
                 <div class="business-overlay">
                     <h3>便利屋</h3>
                     <p>Handyman</p>
                 </div>
             </div>
             <div class="business-item small">
-                <img src="./images/sp-business/sp-business-05.jpg" alt="Exterior" />
+                <img src="./assets/images/sp-business/sp-business-05.jpg" alt="Exterior" />
                 <div class="business-overlay">
                     <h3>外構（エクステリア等）</h3>
                     <p>Exterior</p>
@@ -213,13 +215,13 @@
             <div class="interview-box">
                 <h3>Worker</h3>
                 <p>働く人の声</p>
-                <img src="./images/interview01.png" alt="Worker Image" />
+                <img src="./assets/images/interview01.png" alt="Worker Image" />
                 <button class="interview-button">詳しく見る ➔</button>
             </div>
             <div class="interview-box">
                 <h3>Customer</h3>
                 <p>お客様の声</p>
-                <img src="./images/interview02.png" alt="Customer Image" />
+                <img src="./assets/images/interview02.png" alt="Customer Image" />
                 <button class="interview-button">詳しく見る ➔</button>
             </div>
         </div>
@@ -234,11 +236,11 @@
             </p>
         </div>
         <div class="recruitment image-container">
-            <img src="./images/recruitment01.jpg" alt="Business Image" />
+            <img src="./assets/images/recruitment01.jpg" alt="Business Image" />
             <button class="image-button">業務委託募集</button>
         </div>
         <div class="recruitment image-container">
-            <img src="./images/recruitment02.jpg" alt="Construction Image" />
+            <img src="./assets/images/recruitment02.jpg" alt="Construction Image" />
             <button class="image-button">社員募集</button>
         </div>
     </section>
@@ -326,7 +328,7 @@
             <div class="footer-content">
                 <div class="footer-left">
                     <div class="logo">
-                        <img src="./images/logo.png" alt="" class="logo">
+                        <img src="./assets/images/logo.png" alt="" class="logo">
                     </div>
                     <p class="tagline">解体で開拓する、未来。</p>
                     <address class="address">
