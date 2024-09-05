@@ -231,6 +231,22 @@ ul {
   font-weight: bold;
 }
 
+.custom-button1 {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+  width: 300px;
+  height: 60px;
+  text-align: center;
+  position: relative;
+}
+
 .custom-button {
   display: inline-block;
   padding: 10px;
@@ -246,6 +262,21 @@ ul {
   position: relative;
 }
 
+.custom-button1 span {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  line-height: 0;
+
+  svg {
+    height: 16px;
+    width: 16px;
+    fill: white;
+  }
+}
+
 .custom-button span {
   font-size: 1.5rem;
   position: absolute;
@@ -259,6 +290,39 @@ ul {
     width: 10px;
     fill: var(--primary);
   }
+}
+
+.col {
+  color: var(--primary);
+}
+
+.si {
+  width: 1200px !important;
+  height: 200px !important;
+}
+
+.siz {
+  width: 1200px !important;
+  margin: auto;
+  /* height: 200px !important; */
+}
+
+.siz div {
+  margin-left: 50px;
+  display: flex;
+  gap: 50px;
+}
+
+.a {
+  width: 80px;
+}
+
+.b {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  border: solid black;
+  width: 100px;
 }
 
 .custom-button:hover {
