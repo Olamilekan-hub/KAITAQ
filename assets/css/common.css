@@ -64,8 +64,8 @@ a {
 }
 
 .section-title {
-    font-size: 70px;
-    margin: 0;
+    font-size: 55px;
+    margin-bottom: 10px;
     color: var(--primary);
     font-weight: 800;
   

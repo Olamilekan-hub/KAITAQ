@@ -271,6 +271,21 @@ ul {
   position: relative;
 }
 
+.image-button span {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  line-height: 0;
+
+  svg {
+    height: 10px;
+    width: 10px;
+    fill: white;
+  }
+}
+
 .custom-button1 span {
   font-size: 1.5rem;
   position: absolute;
@@ -805,7 +820,7 @@ footer .logo {
 }
 
 .about-content h3 {
-  font-size: 50px;
+  font-size: 2rem;
   font-weight: bold;
   margin-bottom: 10px;
   color: #333;
@@ -888,6 +903,28 @@ footer .logo {
     width: 400px;
     z-index: -1;
   }
+  
+
+.business-overlay i {
+  border: 2px solid var(--white);
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  display: grid;
+  place-content: center;
+  margin-left: 20px;
+  flex-shrink: 0;
+
+  svg {
+    height: 15px;
+    width: 15px;
+  }
+
+}
+
+.business-overlay .gh {
+  justify-content: space-between;
+}
 
   @media screen and (max-width: 1199px) {
     &.business {
@@ -907,6 +944,7 @@ footer .logo {
 }
 
 .business-grid {
+  height: 750px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -1048,21 +1086,23 @@ footer .logo {
 }
 
 .recruitment-section {
+  margin-top: 100px;
   display: flex;
   /* width: 1540px; */
   height: 450px !important;
   flex-direction: row;
   padding: 40px 20px;
+  /* margin: 0 auto; */
 }
 
 .recruitment {
-  flex: 1;
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   color: white;
   position: relative;
-  width: 500px !important;
+  /* max-width: 500px !important; */
 }
 
 .recruitment h2 {
@@ -1091,7 +1131,7 @@ footer .logo {
 
 .image-container {
   position: relative;
-  flex: 1;
+  /* flex: 1 1; */
   display: flex;
   justify-content: center;
   align-items: center;
