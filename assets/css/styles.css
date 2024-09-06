@@ -525,23 +525,10 @@ ul {
     height: 15px;
     width: 15px;
   }
+
 }
 
-.button {
-  background-color: #f4b300;
-  color: var(--black);
-  text-decoration: none;
-  font-weight: bold;
-  padding: 35px 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 5px;
-  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
-  height: 140px;
-}
-
-.bun {
+.news-items .button {
   background-color: #f4b300;
   color: var(--black);
   text-decoration: none;
