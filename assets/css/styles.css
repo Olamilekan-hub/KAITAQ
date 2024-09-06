@@ -101,6 +101,7 @@ ul {
 }
 
 .custom-dropdown-wrapper .dropdown-menu li {
+  font-size: 18px !important;
   padding: 0px 0;
   height: 70px;
   border-bottom: 1px solid #808080bd;
@@ -134,7 +135,7 @@ ul {
   text-decoration: none;
   padding: 7px 20px;
   text-align: left;
-  font-size: 14px;
+  font-size: 18px;
   transition: background-color 0.2s ease;
   position: relative;
   text-transform: capitalize;
@@ -1278,7 +1279,7 @@ li.mob_menu_title {
 
 .tit {
   font-size: 40px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   color: var(--primary);
   font-weight: bold;
 }
@@ -1317,7 +1318,7 @@ li.mob_menu_title~li {
 }
 
 ul.mob_menu_list {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 991px) {
