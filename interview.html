@@ -10,6 +10,7 @@
     <link href="./assets/css/aboutUs.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/common.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/carousel.css" />
     <link href="dist/output.css" rel="stylesheet">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
@@ -130,41 +131,48 @@
         </div>
 
         <section>
-            <div class="car flex items-center justify-center relative overflow-hidden">
-                <!-- Left Arrow -->
-                <button id="leftArrow" class="absolute left-0 z-10 p-4 text-white bg-black bg-opacity-50">
-                  &#8249;
-                </button>
-              
-                <!-- Carousel Container -->
-                <div id="carousel" class="flex gap-[75px] w-full overflow-hidden scroll-smooth px-10">
-                  <!-- Card 1 -->
-                  <div class="card bg-white h-[510px] w-[350px] mt-[40px] mb-[80px] py-[30px] px-[70px]">
-                    Card 1
-                  </div>
-                  <!-- Card 2 -->
-                  <div class="card bg-white h-[510px] w-[350px] mt-[40px] mb-[80px] py-[30px] px-[70px]">
-                    Card 2
-                  </div>
-                  <!-- Card 3 -->
-                  <div class="card bg-white h-[510px] w-[350px] mt-[40px] mb-[80px] py-[30px] px-[70px]">
-                    Card 3
-                  </div>
-                  <!-- Card 4 -->
-                  <div class="card bg-white h-[510px] w-[350px] mt-[40px] mb-[80px] py-[30px] px-[70px]">
-                    Card 4
-                  </div>
-                  <!-- Card 5 -->
-                  <div class="card bg-white h-[510px] w-[350px] mt-[40px] mb-[80px] py-[30px] px-[70px]">
-                    Card 5
-                  </div>
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card">
+                            <h2>Card 1</h2>
+                            <p>This is some text for the first card.</p>
+                            <button>Sign up today</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <h2>Card 2</h2>
+                            <p>This is some text for the second card.</p>
+                            <button>Learn more</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <h2>Card 3</h2>
+                            <p>This is some text for the third card.</p>
+                            <button>Browse gallery</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <h2>Card 4</h2>
+                            <p>This is some text for the fourth card.</p>
+                            <button>Get started</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <h2>Card 5</h2>
+                            <p>This is some text for the fifth card.</p>
+                            <button>Discover more</button>
+                        </div>
+                    </div>
                 </div>
-              
-                <!-- Right Arrow -->
-                <button id="rightArrow" class="absolute right-0 z-10 p-4 text-white bg-black bg-opacity-50">
-                  &#8250;
-                </button>
-              </div>
+                <button class="carousel-control-prev" onclick="prevSlide()">Previous</button>
+                <button class="carousel-control-next" onclick="nextSlide()">Next</button>
+            </div>
+            
         </section>
 
         <div class="interview-container">
@@ -360,6 +368,7 @@
             $("body").removeClass("menu_open_body");
         });
     </script>
+    <script src="./carousel.js"></script>
 </body>
 
 </html>
