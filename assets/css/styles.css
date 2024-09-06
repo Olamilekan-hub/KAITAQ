@@ -576,11 +576,7 @@ footer {
 }
 
 .footer-left {
-  flex: 1;
-  /* min-width: 30%; */
   width: 370px !important;
-  align-content: center;
-  padding-right: 50px;
 }
 
 footer .logo {
