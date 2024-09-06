@@ -437,13 +437,13 @@ ul {
 .contact-section {
   background-color: #e5e5e5;
   margin-bottom: 150px;
-  height: 440px !important;
+  /* height: 440px !important; */
 }
 
 .contact-container {
   /* max-width: 1200px; */
-  margin: 0 auto;
-  padding: 75px 50px;
+  /* margin: 0 auto; */
+  padding: 70px 50px;
   display: flex;
   /* flex-wrap: wrap; */
   justify-content: space-between;
@@ -453,7 +453,7 @@ ul {
 .contact-text {
   /* flex: 1 1 100%; */
   /* max-width: 45%; */
-  padding: 20px;
+  padding: 20px 50px;
 }
 
 .contact-text h1 {
