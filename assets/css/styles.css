@@ -1285,12 +1285,20 @@ li.mob_menu_title {
 
 .bt {
   display: flex !important;
-  align-items: space-between !important;
+  justify-content: space-between;
+  gap: auto;
 }
 
 .kj {
   align-self: flex-end;
+  padding: 0 !important;
+  width: 600px !important;
 }
+
+.small {
+  font-size: 20px !important;
+}
+
 li.mob_menu_title~li {
   font-size: 12px;
   font-weight: bold;
