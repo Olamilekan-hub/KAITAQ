@@ -492,7 +492,7 @@ ul {
 }
 
 .contact-text p {
-  font-size: 18px;
+  font-size: 24px;
   margin: 10px 0 0 0;
   color: var(--black);
   font-weight: bold;
@@ -516,8 +516,8 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 5px;
-  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  /* border-radius: 5px; */
+  /* box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); */
   height: 140px;
 }
 
@@ -681,8 +681,9 @@ footer .logo {
 }
 
 .address p {
-  font-size: 10px;
+  font-size: 14px;
   color: var(--black);
+  font-weight: bold;
 }
 
 .address p:first-child {
@@ -739,7 +740,7 @@ footer .logo {
 
 .footer-links li {
   margin-bottom: 5px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -797,11 +798,7 @@ footer .logo {
   font-weight: bold;
 }
 
-/* Privacy Policy Section styling */
-.pry {
-  margin-left: 200px;
-  margin-right: 200px;
-}
+
 
 /* About Us Section Styling */
 .about-us {
@@ -1389,4 +1386,40 @@ ul.mob_menu_list {
   .logo {
     font-size: 24px;
   }
+}
+
+/* Privacy Policy Section styling */
+.pry {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.pry hr {
+  background-color: #000;
+  height: 2px;
+  border: #000;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.pry div h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.pry div p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.ga {
+  gap: 20rem;
+}
+
+.le {
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
 }
