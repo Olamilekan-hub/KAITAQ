@@ -698,6 +698,12 @@ footer .logo {
   font-weight: bold;
 }
 
+/* Privacy Policy Section styling */
+.pry {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
 /* About Us Section Styling */
 .about-us {
   display: flex;
@@ -887,6 +893,26 @@ footer .logo {
 }
 
 /* Interview Section */
+
+
+.car {
+  height: 630px;
+  background-color: var(--primary);
+}
+
+#carousel {
+  display: flex !important;
+  gap: 75px !important;
+}
+
+.card {
+  height: 510px !important;
+  width: 350px !important;
+  margin-top: 40px;
+  margin-bottom: 80px;
+
+}
+
 .interview {
   text-align: center;
   padding: 40px 20px;
