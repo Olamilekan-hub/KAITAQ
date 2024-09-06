@@ -436,6 +436,7 @@ ul {
 
 .contact-section {
   background-color: #e5e5e5;
+  margin-top: 140px;
   margin-bottom: 150px;
   /* height: 440px !important; */
 }
@@ -684,7 +685,7 @@ footer .logo {
 .footer-links h4 {
   margin-bottom: 10px;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.5rem !important;
 }
 
 .footer-links ul {
@@ -715,6 +716,8 @@ footer .logo {
 .footer-right-news-section h4 {
   margin-bottom: 20px;
   margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bolder;
 }
 
 .news-items {
@@ -736,6 +739,12 @@ footer .logo {
 .privacy-policy a {
   color: var(--black);
   font-size: 12px;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.privacy-policy span {
+  font-size: 1rem;
 }
 
 .footer-bottom {
