@@ -522,6 +522,21 @@ ul {
 
 .but1 {
   font-size: 2rem !important;
+  color: #000 !important;
+}
+
+.but2 {
+  font-size: 2rem !important;
+  color: #000 !important;
+}
+
+.pp {
+  height: 140px !important;
+  width: 600px !important;
+}
+
+.text-black {
+  color: #000 !important;
 }
 
 .button-wrap {
@@ -1268,6 +1283,14 @@ li.mob_menu_title {
   font-weight: bold;
 }
 
+.bt {
+  display: flex !important;
+  align-items: space-between !important;
+}
+
+.kj {
+  align-self: flex-end;
+}
 li.mob_menu_title~li {
   font-size: 12px;
   font-weight: bold;
