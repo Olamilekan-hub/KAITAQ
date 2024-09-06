@@ -1093,6 +1093,18 @@ footer .logo {
   flex-direction: row;
   padding: 40px 20px;
   /* margin: 0 auto; */
+  z-index: 1;
+
+  /* &::after {
+    position: relative;
+    content: "";
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #f9f4e7;
+    width: 400px;
+    z-index: 0;
+  } */
 }
 
 .recruitment {
