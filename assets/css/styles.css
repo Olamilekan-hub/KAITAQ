@@ -1049,14 +1049,14 @@ footer .logo {
 
 .recruitment-section {
   display: flex;
-  width: 1540px;
+  /* width: 1540px; */
   height: 450px !important;
   flex-direction: row;
   padding: 40px 20px;
 }
 
 .recruitment {
-  /* flex: 1; */
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
