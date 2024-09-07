@@ -10,6 +10,7 @@
         <link href="./assets/css/aboutUs.css" rel="stylesheet">
         <link rel="stylesheet" href="./assets/css/common.css" />
         <link rel="stylesheet" href="./assets/css/contact.css" />
+        <link rel="stylesheet" href="./assets/css/sp-contact.css" />
         <link href="dist/output.css" rel="stylesheet">
         <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     </head>
@@ -105,22 +106,31 @@
         </header>
         <main>
             <section class="main-content">
-                <div class="text-content flex flex-col justify-between pl-24">
-                    <div>
-                        <h2 class="section-title">CONTACT</h2>
-                        <p class="subtitle ml-2">お問い合わせ</p>
+                    <div class="none flex flex-col justify-between pl-24">
+                        <div class="">
+                            <h2 class="section-title">CONTACT</h2>
+                            <p class="subtitle ml-2">お問い合わせ</p>
+                        </div>
+                        <!-- <p class="text-[18px] ml-2">KAITAQでは、一緒にお仕事をしていただける、業務委託先や社員を <br> 募集しております。お気軽にお問い合わせください。</p> -->
+                        <div class="breadcrumb">
+                            <p>トップページ ＞ お問い合わせ</p>
+                        </div>
                     </div>
-                    <!-- <p class="text-[18px] ml-2">KAITAQでは、一緒にお仕事をしていただける、業務委託先や社員を <br> 募集しております。お気軽にお問い合わせください。</p> -->
-                    <div class="breadcrumb">
-                        <p>トップページ ＞ お問い合わせ</p>
+                    <div class="image-content">
+                        <img src="./assets/images/pc-contact.jpg" alt="POLICY" class="top-image">
+                        
                     </div>
-                </div>
-                <div class="image-content">
-                    <img src="./assets/images/pc-contact.jpg" alt="POLICY"
-                        class="top-image">
-                </div>
+                    <div class="mc">
+                        <div class="her0">
+                            <div class="overlay1">
+                                <p class="sub ml-2">お問い合わせ</p>
+                                <h2 class="section-title">CONTACT</h2>
+                                <a href="#contact" class="sub scroll-text1">SCROLL</a>
+                            </div>
+                        </div>
+                    </div>
             </section>
-            <section class="conct">
+            <section id="contact" class="conct">
                 <div class="butts">
                     <div>
                         <a href="#" class="butt" id="butt">
@@ -152,7 +162,84 @@
                         </div>
                         <div class="option">
                             <h3>問い合わせ種別</h3>
-                            <p>必須</p>
+                            <p class="pl">必須</p>
+                        </div>
+
+                        <div id="form1" class="d form 1">
+                            <div class="radio-group">
+                                <label class="radio-option">
+                                    <input type="radio" name="option" value="1"> 社員応募 </label>
+                                <label class="radio-option">
+                                    <input type="radio" name="option" value="2"> 業務委託応募</label>
+                                <label class="radio-option">
+                                    <input type="radio" name="option" value="3"> 1人親方応募</label>
+                                <label class="radio-option">
+                                    <input type="radio" name="option" value="4"> その他</label>
+                            </div>
+                            <div class="form-container">
+                                <form action="#" method="post">
+                                    <label for="name">お名前 <span class="pl">必須</span></label>
+                                    <input type="text" id="name" name="name" required>
+                        
+                                    <label for="Phonetic-pronunciation">ふりがな <span class="pl">必須</span></label>
+                                    <input type="text" id="Phonetic-pronunciation" name="Phonetic-pronunciation" required>
+                        
+                                    <label for="email">メールアドレス <span class="pl">必須</span></label>
+                                    <input type="email" id="email" name="email" required>
+                        
+                                    <label for="telephone">電話番号</label>
+                                    <input type="tel" id="telephone" name="telephone">
+                        
+                                    <label for="inquiry">お問い合わせ内容 <span class="pl">必須</span></label>
+                                    <textarea id="inquiry" name="inquiry" required></textarea>
+                        
+                                    <div class="checkbox-container">
+                                        <label>
+                                            <input type="checkbox" id="confirm" name="confirm" required>
+                                            上記内容を再度ご確認の上、こちらのボックスにチェックを入れてから送信してください。
+                                        </label>
+                                    </div>
+
+                                    <button type="submit">上記の内容で送信する ＞</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        
+                        <div id="form2" class="h form 2">
+                            <div class="radio-group">
+                                <label class="radio-option">
+                                    <input type="radio" name="option" value="1"> 法人</label>
+                                <label class="radio-option">
+                                    <input type="radio" name="option" value="2">個人</label>
+                            </div>
+                            <div class="form-container">
+                                <form action="#" method="post">
+                                    <label for="name">お名前/法人名 <span class="pl">必須</span></label>
+                                    <input type="text" id="name" name="name" required>
+                        
+                                    <label for="Phonetic-pronunciation">ふりがな <span class="pl">必須</span></label>
+                                    <input type="text" id="Phonetic-pronunciation" name="Phonetic-pronunciation" required>
+                        
+                                    <label for="email">メールアドレス <span class="pl">必須</span></label>
+                                    <input type="email" id="email" name="email" required>
+                        
+                                    <label for="telephone">電話番号</label>
+                                    <input type="tel" id="telephone" name="telephone">
+                        
+                                    <label for="inquiry">お問い合わせ内容 <span class="pl">必須</span></label>
+                                    <textarea id="inquiry" name="inquiry" required></textarea>
+                        
+                                    <div class="checkbox-container">
+                                        <label>
+                                            <input type="checkbox" id="confirm" name="confirm" required>
+                                            上記内容を再度ご確認の上、こちらのボックスにチェックを入れてから送信してください。
+                                        </label>
+                                    </div>
+
+                                    <button type="submit">上記の内容で送信する ＞</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                     <div class="dr">
@@ -322,11 +409,11 @@
             const butt2 = document.getElementById('butt2');
 
             // Add event listeners to both divs
-            butt.addEventListener('click', swapClasses);
-            butt2.addEventListener('click', swapClasses);
+            butt.addEventListener('click', swapClassesbutt);
+            butt2.addEventListener('click', swapClassesbutt);
 
             // Function to swap the classes of the divs
-            function swapClasses() {
+            function swapClassesbutt() {
                 // Check if the first box has the 'box-yellow' class
                 if (butt.classList.contains('butt')) {
                     // If box1 has 'box-yellow', swap the classes
@@ -342,6 +429,33 @@
 
                     butt2.classList.remove('butt');
                     butt2.classList.add('butt2');
+                }
+            }
+
+            const d = document.getElementById('form1');
+            const h = document.getElementById('form2');
+
+            // Add event listeners to both divs
+            butt.addEventListener('click', swapClassesForm);
+            butt2.addEventListener('click', swapClassesForm);
+
+            // Function to swap the classes of the divs
+            function swapClassesForm() {
+                // Check if the first box has the 'box-yellow' class
+                if (d.classList.contains('d')) {
+                    // If box1 has 'box-yellow', swap the classes
+                    d.classList.remove('d');
+                    d.classList.add('h');
+
+                    h.classList.remove('h');
+                    h.classList.add('d');
+                } else {
+                    // Otherwise, reverse the swap
+                    d.classList.remove('h');
+                    d.classList.add('d');
+
+                    h.classList.remove('d');
+                    h.classList.add('h');
                 }
             }
         </script>
