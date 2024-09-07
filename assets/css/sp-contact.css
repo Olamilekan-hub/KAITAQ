@@ -97,7 +97,7 @@
         height: 110px;
     }
     .conct {
-        width: 100%;
+        width: 100vh;
     }
     .dr {
         margin: 0 50px;
@@ -148,6 +148,33 @@
         border: solid black;
         width: 45%;
         border-radius: 40px;
+      }
+      .butt {
+        background-color: #f4b300;
+        color: var(--black);
+        text-decoration: none;
+        font-weight: bold;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 150px;
+        width: 50vh;
+      }
+       .butt2 {
+        background-color: #ffffff;
+        border: solid #f4b300;
+        color: var(--black);
+        text-decoration: none;
+        font-weight: bold;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 150px;
+        width: 50vh;
       }
 }
 
