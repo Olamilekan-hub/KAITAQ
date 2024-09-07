@@ -424,4 +424,49 @@
         .butts {
             margin-bottom: 50px;
         }
+        .dl { 
+            width: 100vh;
+            margin: 0 100px;
+        }
+        .option h3 {
+            font-size: 40px !important;
+        }
+        .option p {
+            font-size: 30px;
+        }
+        .radio-group {
+            margin-top: 75px;
+            margin-bottom: 75px;
+        }
+        .radio-option {
+            margin-right: 40px;
+            font-size: 35px;
+        }
+        
+        .radio-option input{
+            margin-right: 10px;
+        }
+        input[type="radio"] {
+            width: 30px;
+            height: 30px;
+        }
+        .pl {
+            padding: 0 30px;
+            /* height: 30px; */
+            border-radius: 40px;
+            margin-left: 30px;
+            font-size: 30px;
+        }
+        .form-container {
+            width: 100%;
+        }
+        .form-container label { 
+            font-size: 35px;
+        }
+        .form-container input,
+        .form-container textarea {
+            border-radius: 30px;
+            margin-bottom: 30px;
+        }
+        .form-container button {}
 }
