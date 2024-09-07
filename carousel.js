@@ -3,16 +3,18 @@ let currentIndex = 0;
 function showSlide(index) {
     const carouselInner = document.querySelector('.carousel-inner');
     const totalItems = document.querySelectorAll('.carousel-item').length;
-    
-    if (index >= totalItems) {
-        currentIndex = 0;
+    const visibleItems = 3; // Show 3 items at a time
+    const maxIndex = totalItems - visibleItems; // Calculate maximum index for sliding
+
+    if (index > maxIndex) {
+        currentIndex = 0; // Loop back to the beginning
     } else if (index < 0) {
-        currentIndex = totalItems - 1;
+        currentIndex = maxIndex; // Loop back to the end
     } else {
         currentIndex = index;
     }
     
-    const offset = -currentIndex * 100;
+    const offset = -currentIndex * (100 / visibleItems);
     carouselInner.style.transform = `translateX(${offset}%)`;
 }
 
@@ -23,3 +25,5 @@ function nextSlide() {
 function prevSlide() {
     showSlide(currentIndex - 1);
 }
+
+showSlide(2); // Initialize the first slide

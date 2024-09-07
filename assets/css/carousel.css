@@ -2,27 +2,34 @@
     position: relative;
     width: 100%;
     overflow: hidden;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
+    background-color: var(--primary);
+    padding: 40px 200px;
 }
 
 .carousel-inner {
+    width: 1200px;
+    overflow: hidden;
     display: flex;
     transition: transform 0.5s ease-in-out;
+    /* width: 300%; Ensure all slides fit */
+    gap: 75px;
 }
 
 .carousel-item {
-    min-width: 100%;
     display: flex;
-    justify-content: center;
+    /* justify-content: space-around; */
     align-items: center;
+    width: 350px; /* Show 3 cards per slide */
 }
 
 .card {
-    width: 300px;
+    width: 350px !important;
+    height: 510px !important;
     padding: 20px;
     background-color: #f8f9fa;
-    border-radius: 5px;
+    border-radius: 20px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -40,7 +47,7 @@ button:hover {
     background-color: #0056b3;
 }
 
-.carousel-control-prev, .carousel-control-next {
+/* .carousel-control-prev, .carousel-control-next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -56,5 +63,30 @@ button:hover {
 }
 
 .carousel-control-next {
+    right: 10px;
+} */
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.arrow:hover {
+    background-color: #444;
+}
+
+.arrow.left {
+    left: 10px;
+}
+
+.arrow.right {
     right: 10px;
 }

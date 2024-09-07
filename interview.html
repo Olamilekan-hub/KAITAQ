@@ -132,8 +132,9 @@
 
         <section>
             <div class="carousel">
+                <button class="arrow left" onclick="moveSlide(-1)">&#10094;</button>
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
+                    <div class="carousel-item">
                         <div class="card">
                             <h2>Card 1</h2>
                             <p>This is some text for the first card.</p>
@@ -169,10 +170,10 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" onclick="prevSlide()">Previous</button>
-                <button class="carousel-control-next" onclick="nextSlide()">Next</button>
+                <button class="arrow right" onclick="moveSlide(1)">&#10095;</button>
+                <!-- <button class="carousel-control-prev" onclick="prevSlide()">Previous</button>
+                <button class="" onclick="nextSlide()">Next</button> -->
             </div>
-            
         </section>
 
         <div class="interview-container">
