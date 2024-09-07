@@ -191,3 +191,14 @@
         }
     }
 }
+: 28px;
+        height: 70px;
+
+        & p {
+            padding: 20px;
+            text-align: left;
+            font-weight: bold;
+            margin-left: 15px;
+        }
+    }
+}
