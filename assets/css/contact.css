@@ -51,7 +51,7 @@
     color: #000 !important;
   }
 
-  .but1 span {
+  .pan {
     font-size: 20px;
   }
 
@@ -165,7 +165,7 @@
     width: 20px;
     height: 20px;
     background-color: #f7f7f7;
-}
+  }
 
 .form-container {
   width: 550px;

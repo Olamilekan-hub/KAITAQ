@@ -176,6 +176,64 @@
         height: 150px;
         width: 50vh;
       }
+      .image {
+        width: 60px;
+        height: 60px;
+        }
+        .but1 {
+            font-size: 60px !important;
+            color: #000 !important;
+        }
+        .pan {
+        font-size: 28px;
+        }
+        .butts {
+            margin-bottom: 50px;
+        }
+        .dl { 
+            width: 100vh;
+            margin: 0 100px;
+        }
+        .option h3 {
+            font-size: 40px !important;
+        }
+        .option p {
+            font-size: 30px;
+        }
+        .radio-group {
+            margin-top: 75px;
+            margin-bottom: 75px;
+        }
+        .radio-option {
+            margin-right: 40px;
+            font-size: 35px;
+        }
+        
+        .radio-option input{
+            margin-right: 10px;
+        }
+        input[type="radio"] {
+            width: 30px;
+            height: 30px;
+        }
+        .pl {
+            padding: 0 30px;
+            /* height: 30px; */
+            border-radius: 40px;
+            margin-left: 30px;
+            font-size: 30px;
+        }
+        .form-container {
+            width: 100%;
+        }
+        .form-container label { 
+            font-size: 35px;
+        }
+        .form-container input,
+        .form-container textarea {
+            border-radius: 30px;
+            margin-bottom: 30px;
+        }
 }
 
 @media (max-width: 480px) {
@@ -325,4 +383,45 @@
         width: 45%;
         border-radius: 40px;
       }
+      .butt {
+        background-color: #f4b300;
+        color: var(--black);
+        text-decoration: none;
+        font-weight: bold;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 150px;
+        width: 50vh;
+      }
+       .butt2 {
+        background-color: #ffffff;
+        border: solid #f4b300;
+        color: var(--black);
+        text-decoration: none;
+        font-weight: bold;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 150px;
+        width: 50vh;
+      }
+      .image {
+        width: 60px;
+        height: 60px;
+        }
+        .but1 {
+            font-size: 60px !important;
+            color: #000 !important;
+        }
+        .pan {
+        font-size: 28px;
+        }
+        .butts {
+            margin-bottom: 50px;
+        }
 }
