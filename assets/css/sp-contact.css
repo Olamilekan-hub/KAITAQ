@@ -27,6 +27,9 @@
         background-position: center;
         background-repeat: no-repeat;*/
     } 
+    .logo {
+        width: 400px;
+    }
     .main-content {
         display: block;
     }
@@ -38,7 +41,7 @@
         height: 70vh;
         background: url("../images/sp-contact.jpg") no-repeat center center/cover;
         position: relative;
-        margin-bottom: 3rem;
+        /* margin-bottom: 3rem; */
         padding: 0 !important;
         text-align: center;
         display: block;
@@ -78,6 +81,17 @@
         font-size: 28px;
         color: white;
         font-weight: bold;
+    }
+    .bc {
+        background-color: #E6E6E6;
+        font-size: 32px;
+        height: 80px;
+
+        & p {
+            padding: 20px;
+            text-align: left;
+            margin-left: 40px;
+        }
     }
 }
 
@@ -105,6 +119,13 @@
         background-position: center;
         background-repeat: no-repeat;*/
     } 
+    .logo {
+        width: 350px;
+    }
+    .menu-icon {
+        width: 90px;
+        height: 90px;
+    }
     .main-content {
         display: block;
     }
@@ -116,7 +137,7 @@
         height: 70vh;
         background: url("../images/sp-contact.jpg") no-repeat center center/cover;
         position: relative;
-        margin-bottom: 3rem;
+        /* margin-bottom: 3rem; */
         padding: 0 !important;
         text-align: center;
         display: block;
@@ -156,5 +177,17 @@
         font-size: 28px;
         color: white;
         font-weight: bold;
+    }
+    .bc {
+        background-color: #E6E6E6;
+        font-size: 28px;
+        height: 70px;
+
+        & p {
+            padding: 20px;
+            text-align: left;
+            font-weight: bold;
+            margin-left: 15px;
+        }
     }
 }
