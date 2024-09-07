@@ -74,14 +74,19 @@
     color: #f4b300;
   }
 
+  .option {
+    display: flex;
+    flex-direction: row;
+}
+
   .opt {
     width: 600px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    gap: 20px;
     align-items: center;
     color: #f4b300;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
   }
 
   .opt img{
@@ -95,4 +100,46 @@
 
   .opt h2 span {
     font-size: 30px;
+    margin-left: 20px;
+  }
+
+  .dl div h3 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .dl div p {
+    background-color: #D8007F;
+    border: solid #D8007F;
+    border-radius: 20px;
+    font-size: 16px;
+    color: white;
+    margin-left: 20px;
+    width: 70px !important;
+    text-align: center;
+  }
+
+  .dr {
+    margin-left: 50px;
+    margin-right: 90px;
+  }
+
+  .dr h1 {
+    font-size: 60px;
+    font-weight: bold;
+  }
+
+  .par {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .par p {
+    font-size: 18px;
+    font-weight: 700;
+    border: solid black;
+    width: 220px;
+    border-radius: 20px;
   }
