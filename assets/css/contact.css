@@ -74,14 +74,19 @@
     color: #f4b300;
   }
 
+  .option {
+    display: flex;
+    flex-direction: row;
+}
+
   .opt {
     width: 600px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    gap: 20px;
     align-items: center;
     color: #f4b300;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
   }
 
   .opt img{
@@ -95,4 +100,129 @@
 
   .opt h2 span {
     font-size: 30px;
+    margin-left: 20px;
   }
+
+  .dl div h3 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .pl {
+    background-color: #D8007F;
+    border: solid #D8007F;
+    border-radius: 20px;
+    font-size: 16px;
+    color: white;
+    margin-left: 20px;
+    /* width: 70px !important; */
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  .dr {
+    margin-left: 50px;
+    margin-right: 90px;
+  }
+
+  .dr h1 {
+    font-size: 60px;
+    font-weight: bold;
+  }
+
+  .par {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .par p {
+    font-size: 18px;
+    font-weight: 700;
+    border: solid black;
+    width: 220px;
+    border-radius: 20px;
+  }
+
+  .radio-group {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .radio-option {
+    margin-right: 30px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+  .radio-option input{
+    margin-right: 5px;
+  }
+  input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    background-color: #f7f7f7;
+}
+
+.form-container {
+  width: 550px;
+  margin-bottom: 150px;
+}
+.form-container label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  height: 71px;
+}
+.form-container textarea {
+  resize: vertical;
+  height: 350px !important;
+  margin-bottom: 50px !important;
+}
+.form-container button {
+  margin-top: 50px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #f4b300;
+  color: white;
+  cursor: pointer;
+  border-radius: 30px;
+  font-size: 22px;
+  font-weight: 700;
+  width: 320px;
+  height: 70px;
+  text-align: center;
+}
+.form-container button:hover {
+  background-color: #000;
+  color: #f4b300;
+}
+#confirm {
+  width: 20px;
+  height: 20px;
+  background-color: #f7f7f7;
+}
+
+.d {
+  display: block;
+}
+
+.h {
+  display: none;
+}
+
+
