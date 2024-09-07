@@ -120,8 +120,27 @@
                         class="top-image">
                 </div>
             </section>
-            <section>
-                <div></div>
+            <section class="conct">
+                <div class="butts">
+                    <div>
+                        <a href="#" class="butt" id="butt">
+                            <p class="button-wrap">
+                                <span class="but1">RECRUITER</span>
+                                <span>社員募集 / 業務委託募集 / 一人親方募集</span>
+                            </p>
+                            <img src="./assets/images/down-arrow.png" alt="dropdown-menu">
+                        </a>
+                        <img class="image" src="./assets/images/arrow-down-filled-triangle.png" alt="dropdown-menu">
+                    </div>
+                    <a href="#" class="butt2" id="butt2">
+                        <p class="button-wrap">
+                            <span class="but1">JOB REQUEST</span>
+                            <span>お仕事のご依頼の方</span>
+                        </p>
+                        <img src="./assets/images/down-arrow.png" alt="dropdown-menu">
+                    </a>
+                    <img class="image" src="./assets/images/arrow-down-filled-triangle.png" alt="dropdown-menu">
+                </div>
             </section>
         </main>
     
@@ -272,6 +291,33 @@
                 $(".header-mob_menu").removeClass("menu_open");
                 $("body").removeClass("menu_open_body");
             });
+
+            const butt = document.getElementById('butt');
+            const butt2 = document.getElementById('butt2');
+
+            // Add event listeners to both divs
+            butt.addEventListener('click', swapClasses);
+            butt2.addEventListener('click', swapClasses);
+
+            // Function to swap the classes of the divs
+            function swapClasses() {
+                // Check if the first box has the 'box-yellow' class
+                if (butt.classList.contains('butt')) {
+                    // If box1 has 'box-yellow', swap the classes
+                    butt.classList.remove('butt');
+                    butt.classList.add('butt2');
+
+                    butt2.classList.remove('butt2');
+                    butt2.classList.add('butt');
+                } else {
+                    // Otherwise, reverse the swap
+                    butt.classList.remove('butt2');
+                    butt.classList.add('butt');
+
+                    butt2.classList.remove('butt');
+                    butt2.classList.add('butt2');
+                }
+            }
         </script>
     </body>
     

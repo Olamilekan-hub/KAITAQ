@@ -1,3 +1,75 @@
 .main-content {
     margin-bottom: 100px;
 }
+
+.conct {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.butts {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+  }
+  
+  .butt {
+    background-color: #f4b300;
+    color: var(--black);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    width: 600px;
+  }
+  
+  .butt2 {
+    background-color: #ffffff;
+    border: solid #f4b300;
+    color: var(--black);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    width: 600px;
+  }
+
+  .button-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .but1 {
+    font-size: 50px !important;
+    color: #000 !important;
+  }
+
+  .but1 span {
+    font-size: 20px;
+  }
+
+  a img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .butts div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+
+  .image {
+    width: 20px;
+    height: 20px;
+    color: #f4b300;
+  }
