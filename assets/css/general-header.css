@@ -1,0 +1,7 @@
+@media (max-width: 962px) {}
+
+@media (max-width: 480px) {
+    .contact-button {
+        display: none;
+    }
+}
