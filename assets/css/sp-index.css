@@ -204,5 +204,50 @@
         font-size: 30px;
         font-weight: bold;
     }
+    .about-us {
+        padding: 0 50px !important;
+    }
+    .about-image-wrapper {
+        z-index: 2;
+        width: 100%;
+        margin-bottom: 150px;
+    }
+    .section-title {
+        font-size: 110px;
+        line-height: 70px !important;
+    }
+    .section-title span {
+        font-size: 40px !important;
+    }
+    .about-content h3 {
+        font-size: 80px;
+        color: #000;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .subtext {
+        font-size: 35px;
+        color: #000;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .description {
+        font-size: 24px;
+    }
+    .custom-button {
+        width: 420px;
+        height: 100px;
+        text-align: center;
+        font-size: 35px;
+        border: 3px solid #ffb300;
+    }
+    svg {
+        height: 20px !important;
+        width: 20px !important;
+    }
+    .business-grid {
+        display: flex;
+        flex-direction: column;
+    }
  }
  
