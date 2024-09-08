@@ -306,7 +306,7 @@
         margin-top: 100px;
         text-orientation: mixed;
         right: 50px;
-        bottom: 100px;
+        bottom: 50px;
         text-decoration: none;
     }
     .sub {
@@ -338,7 +338,7 @@
         margin-bottom: 150px;
     }
     .dr h1 {
-        font-size: 190px;
+        font-size: 110px;
         font-weight: bold;
         text-align: center;
       }
@@ -349,22 +349,21 @@
         gap: 40px;
         align-items: center;
         justify-content: left;
-        margin-left: 20px;
         color: #f4b300;
-        margin-bottom: 0px;
+        margin: 0px;
       }
     
       .opt img{
-        height: 150px;
-        width: 150px;
+        height: 90px;
+        width: 90px;
       }
     
       .opt h2 {
-        font-size: 180px;
+        font-size: 110px;
       }
     
       .opt h2 span {
-        font-size: 90px;
+        font-size: 50px;
         margin-left: 20px;
       }
       .par {
@@ -377,7 +376,7 @@
       }
     
       .par p {
-        font-size: 45px;
+        font-size: 30px;
         font-weight: 700;
         border: solid black;
         width: 45%;
@@ -411,15 +410,15 @@
         width: 50vh;
       }
       .image {
-        width: 60px;
-        height: 60px;
-        }
+        width: 50px;
+        height: 50px;
+       }
         .but1 {
-            font-size: 60px !important;
+            font-size: 40px !important;
             color: #000 !important;
         }
         .pan {
-        font-size: 28px;
+        font-size: 23px;
         }
         .butts {
             margin-bottom: 50px;
@@ -429,10 +428,10 @@
             margin: 0 100px;
         }
         .option h3 {
-            font-size: 40px !important;
+            font-size: 30px !important;
         }
         .option p {
-            font-size: 30px;
+            font-size: 22px;
         }
         .radio-group {
             margin-top: 75px;
@@ -440,7 +439,7 @@
         }
         .radio-option {
             margin-right: 40px;
-            font-size: 35px;
+            font-size: 22px;
         }
         
         .radio-option input{
@@ -451,22 +450,34 @@
             height: 30px;
         }
         .pl {
-            padding: 0 30px;
+            padding: 0 22px;
             /* height: 30px; */
             border-radius: 40px;
             margin-left: 30px;
-            font-size: 30px;
+            font-size: 20px;
         }
         .form-container {
             width: 100%;
         }
         .form-container label { 
-            font-size: 35px;
+            font-size: 25px;
         }
         .form-container input,
         .form-container textarea {
             border-radius: 30px;
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
-        .form-container button {}
+        .form-container button {
+            height: 105px;
+            width: 100%;
+            border-radius: 50px;
+            font-size: 35px;
+        }
+        #confirm {
+            width: 30px;
+            height: 30px;
+        }
+        .form-container textarea {
+            height: 525px !important;
+        }
 }

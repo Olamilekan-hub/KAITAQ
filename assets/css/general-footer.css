@@ -91,13 +91,13 @@
         height: 100px;
         width: 38vh;
     }
-    .but1 {
+    .put1 {
         font-size: 22px !important;
         font-weight: bold;
         color: var(--white) !important;
         text-align: center;
     }
-    .but2 {
+    .put2 {
         font-size: 22px !important;
         font-weight: bold;
         color: #ffb300 !important;
@@ -212,13 +212,13 @@
         height: 100px;
         width: 38vh;
     }
-    .but1 {
+    .put1 {
         font-size: 22px !important;
         font-weight: bold;
         color: var(--white) !important;
         text-align: center;
     }
-    .but2 {
+    .put2 {
         font-size: 22px !important;
         font-weight: bold;
         color: #ffb300 !important;
