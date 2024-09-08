@@ -1,19 +1,43 @@
 .her0 {
     width: 100vh;
     height: 70vh;
-    background: url("../images/pnews.jpg") no-repeat center center/cover;
+    background: url("../images/sp-news.jpg") no-repeat center center/cover;
 }
 
 
 @media (max-width: 480px) {
     siz {
         width: 100vh !important;
+        padding: 0 100px;
     }
-    hr{}
+    .siz div {
+        margin-left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 40px 0;
+    }
+    .a {
+        font-size: 25px !important;
+        font-weight: 300 !important;
+    }
+    .b {
+        width: 150px;
+        font-size: 20px !important;
+        margin-left: 50px;
+    }
+    .siz div p {
+        font-size: 30px;
+        font-weight: 800;
+    }
+    hr{
+        height: 2px;
+    }
 }
     
 @media (max-width: 962px) {
     .siz {
         width: 100vh !important;
+        padding: 0 100px;
     }
 }
