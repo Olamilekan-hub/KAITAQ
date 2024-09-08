@@ -1,3 +1,23 @@
-@media (max-width: 962px) {}
+.her0 {
+    width: 100vh;
+    height: 70vh;
+    background: url("../images/pc-privacypolicy.jpg") no-repeat center center/cover;
+}
 
-@media (max-width: 480px) {}
+.section-title {
+    font-size: 50px;
+}
+
+@media (max-width: 962px) {
+    .pry {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .pry {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
