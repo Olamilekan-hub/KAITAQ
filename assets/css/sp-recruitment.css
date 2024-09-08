@@ -13,8 +13,8 @@
 
 
 @media (max-width: 480px) {
-    #recruit {
-        margin-bottom: 150px !important;
+    .resm {
+        margin-top: 150px !important;
     }
     .col {
         font-size: 40px !important;
@@ -62,8 +62,8 @@
 }
 
 @media (max-width: 962px) {
-    #recruit {
-        margin-bottom: 150px !important;
+    .resm {
+        margin-top: 150px !important;
     }
     .col {
         font-size: 40px !important;
