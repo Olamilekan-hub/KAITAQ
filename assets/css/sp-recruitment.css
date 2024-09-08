@@ -48,10 +48,7 @@
         position: relative;
     }
     .arr {
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         text-align: center;
     }
     .arr .mc {
@@ -67,7 +64,7 @@
     }
     .coll {
         font-size: 50px !important;
-        font-weight: bold !important;
+        font-weight: bold;
     }
     .cols {
         font-size: 90px !important;
@@ -80,5 +77,30 @@
     }
     .resm {
         margin: 0 100px;
+    }
+    .si {
+        width: 100vh !important;
+        height: 250px !important;
+    }
+    .custom-button1 {
+        display: inline-block;
+        padding: 100px 0;
+        border: 3.5px solid white;
+        margin-top: 5px;
+        margin-bottom: 5px; 
+        width: 93%;
+        height: 240px;
+        text-align: center;
+        position: relative;
+        font-size: 30px !important;
+    }
+    .arr {
+        flex-direction: column;
+        text-align: center;
+    }
+    .arr .mc {
+        width: 20px;
+        height: 25px;
+        margin: 0 auto;
     }
 }
