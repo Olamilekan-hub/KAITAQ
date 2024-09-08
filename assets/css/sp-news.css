@@ -1,5 +1,19 @@
 .her0 {
     width: 100vh;
     height: 70vh;
-    background: url("../images/pc-news.jpg") no-repeat center center/cover;
+    background: url("../images/pnews.jpg") no-repeat center center/cover;
+}
+
+
+@media (max-width: 480px) {
+    siz {
+        width: 100vh !important;
+    }
+    hr{}
+}
+    
+@media (max-width: 962px) {
+    .siz {
+        width: 100vh !important;
+    }
 }
