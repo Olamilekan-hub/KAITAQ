@@ -1,0 +1,12 @@
+.her0 {
+    width: 100vh;
+    height: 70vh;
+    background: url("../images/recruitment/pc-recruitment-top.jpg") no-repeat center center/cover;
+}
+
+
+.tep {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 100px 50px;
+}
