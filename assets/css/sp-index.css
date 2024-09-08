@@ -52,7 +52,6 @@
         display: flex !important;
         width: 100vh;
         height: 100px;
-        justify-content: center;
         align-items: center;
     }
     .boxs1 {
@@ -62,8 +61,6 @@
         border: 3.5px solid #ffb300;
         text-align: center;
         padding: 20px;
-        justify-content: center;
-        align-items: center;
     }
     .boxs1 p {
         font-size: 30px;
@@ -76,8 +73,6 @@
         border: 3.5px solid #ffb300;
         text-align: center;
         padding: 20px;
-        justify-content: center;
-        align-items: center;
     }
     .boxs2 p {
         font-size: 30px;
@@ -125,6 +120,36 @@
     }
     .mc {
         display: block;
+    }
+    .boxs {
+        display: flex !important;
+        width: 100vh;
+        height: 100px;
+        align-items: center;
+    }
+    .boxs1 {
+        width: 50%;
+        background-color: #ffb300;
+        color: white;
+        border: 3.5px solid #ffb300;
+        text-align: center;
+        padding: 20px;
+    }
+    .boxs1 p {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .boxs2 {
+        width: 50%;
+        color: #ffb300;
+        background-color: white;
+        border: 3.5px solid #ffb300;
+        text-align: center;
+        padding: 20px;
+    }
+    .boxs2 p {
+        font-size: 30px;
+        font-weight: bold;
     }
  }
  
