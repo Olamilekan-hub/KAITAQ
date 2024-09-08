@@ -5,11 +5,17 @@
     .header {
         width: 100vh;
     } 
+    .header-mob_menu {
+       width: 100vh;
+    }
 }
 
 @media (max-width: 962px) {
     html {
         /* width: 100vh; */
+    }
+    .header-mob-menu {
+       width: 100vh;
     }
     .header {
         /* width: 100%; */

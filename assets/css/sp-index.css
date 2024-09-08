@@ -1,166 +1,36 @@
 @media (max-width: 1024px) {
-    html {
-         width: 100vh;
+     .header-mob_menu {
+        /* width: 100vh; */
+        width: 80%;
      }
-     .header {
-         width: 100vh;
-     } 
+
  }
  
  @media (max-width: 962px) {
-     html {
+     .header-mob_menu {
+        /* width: 100vh; */
+     }
+     .hero{
          width: 100vh;
+         height: 100vh;
+         background: url("../images/hero.jpg") no-repeat center center/cover;
      }
-     .header {
-         width: 100vh;
-     }
-     .top-image {
-         display: none;
-     }
-     .mc {
-         width: 100%;
-         display: block;
-     /*     position: relative;
-         width: 100vh;
-         height: 100vh; 
-         background-size: cover; 
-         background-position: center;
-         background-repeat: no-repeat;*/
-     } 
-     .main-content {
-         display: block;
-     }
-     .none {
-         display: none !important;
-     }
-     .hero1 {
-         width: 100vh;
-         /* height: 100vh; */
-         background: url("../images/sp-contact.jpg") no-repeat center center/cover;
-         position: relative;
-         margin-bottom: 3rem;
-         padding: 0 !important;
-         text-align: center;
-         display: block;
-         font-weight: bold;
- 
-         & h1 {
-             font-size: 110px;
-             color: var(--white);
-             margin-bottom: 10px;
-             
-           }
-
-           .highlight {
-             color: var(--primary);
-             font-size: 160px;
-           }
-     }
-     .overlay1 {
-         position: absolute;
-         top: 0;
-         left: 0;
-         width: 100%;
-         height: 100%;
-         background: rgba(0, 0, 0, 0.2);
-         display: flex;
-         flex-direction: column;
-         justify-content: center;
-         padding: 40px;
-       }
- 
-     .scroll-text1 {
-         /* position: absolute; */
-         color: var(--white);
-         letter-spacing: 2px;
-         margin-top: 100px;
-         text-orientation: mixed;
-         right: 50px;
-         bottom: 100px;
-         text-decoration: none;
-     }
-     .sub {
-         font-size: 28px;
-         color: white;
-         font-weight: bold;
+     .contact-container {
+        flex-direction: column;
      }
  }
  
  @media (max-width: 480px) {
-     html {
+    html {
          width: 100vh;
-     }
-     .header {
-         width: 100vh;
-         padding: 30px;
-     }
-     .top-image {
-         display: none;
-     }
-     .contact-button {
-         display: none;
-     }
-     .mc {
-         width: 100%;
-         display: block;
-     /*     position: relative;
-         width: 100vh;
-         height: 100vh; 
-         background-size: cover; 
-         background-position: center;
-         background-repeat: no-repeat;*/
-     } 
-     .main-content {
-         display: block;
-     }
-     .none {
-         display: none !important;
-     }
-     .her0 {
-         width: 100vh;
-         height: 70vh;
-         background: url("../images/sp-contact.jpg") no-repeat center center/cover;
-         position: relative;
-         margin-bottom: 3rem;
-         padding: 0 !important;
-         text-align: center;
-         display: block;
-         font-weight: bold;
- 
-         & h2 {
-             font-size: 78px;
-             color: var(--white);
-             margin-bottom: 10px;
-             
-           }
-     }
-     .overlay1 {
-         position: absolute;
-         top: 0;
-         left: 0;
-         width: 100%;
-         height: 100%;
-         background: rgba(0, 0, 0, 0.2);
-         display: flex;
-         flex-direction: column;
-         justify-content: center;
-         padding: 40px;
-       }
- 
-     .scroll-text1 {
-         /* position: absolute; */
-         color: var(--white);
-         letter-spacing: 2px;
-         margin-top: 100px;
-         text-orientation: mixed;
-         right: 50px;
-         bottom: 100px;
-         text-decoration: none;
-     }
-     .sub {
-         font-size: 28px;
-         color: white;
-         font-weight: bold;
-     }
+    }
+    .hero{
+        width: 100vh;
+        height: 100vh;
+        background: url("../images/hero.jpg") no-repeat center center/cover;
+    }
+    .contact-container {
+       flex-direction: column;
+    }
  }
  
