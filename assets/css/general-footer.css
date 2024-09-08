@@ -60,6 +60,39 @@
       .footer-bottom {
         font-size: 25px;
       }
+      .boxx {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 50px;
+        width: 100vh;
+      }
+      
+      .box1 {
+        background-color: #f4b300;
+        color: var(--white);
+        text-decoration: none;
+        font-weight: bold;
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 150px;
+        width: 50vh;
+      }
+      
+      .box2 {
+        background-color: #ffffff;
+        border: solid #f4b300;
+        color: var(--white);
+        text-decoration: none;
+        font-weight: bold;
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 150px;
+        width: 50vh;
+      }
 }
 
 @media (max-width: 962px) {}
